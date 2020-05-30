@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.*;
 
 public class DBUtil {
-    private static String url="jdbc:mysql://localhost:3306/myemployees ?serverTimezone=UTC";
+    private static String url="jdbc:mysql://localhost:3306/myemployees?serverTimezone=UTC";
     private static String driverClass="com.mysql.cj.jdbc.Driver";
     private static String username="root";
     private static String password="l5710784";
@@ -37,7 +37,7 @@ public class DBUtil {
         }
     }
     //关闭数据库连接
-    public static void Clse(){
+    public static void Close(){
         if(conn!=null){
             try{
                 conn.close();

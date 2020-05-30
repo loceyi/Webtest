@@ -4,10 +4,11 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     <servlet>
-        <servlet-name> Webtest </servlet-name>
+        <servlet-name>Webtest</servlet-name>
+        <servlet-class>com.test.demo.Servlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Webtest</servlet-name>
-        <url-pattern>/login</url-pattern>
+        <url-pattern>/Login</url-pattern>
     </servlet-mapping>
 </web-app>
