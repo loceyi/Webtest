@@ -22,5 +22,11 @@
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.20" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.20 (2)" level="project" />
+    <orderEntry type="library" name="commons-beanutils:commons-beanutils:1.9.4" level="project" />
+    <orderEntry type="library" name="commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="net.sf.ezmorph:ezmorph:1.0.6" level="project" />
+    <orderEntry type="library" name="commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.10" level="project" />
+    <orderEntry type="library" name="json-lib-2.4-jdk15" level="project" />
   </component>
 </module>

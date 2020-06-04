@@ -9,8 +9,8 @@
 <body>
 <form id="from" action="Login" method="post">
   <table>
-    <tr><td>用户名</td><td><input type="text" name="User_name"></td></tr>
-    <tr><td>密码</td><td><input type="text" name="Password"></td></tr>
+    <tr><td>用户名</td><td><input type="text" name="id"></td></tr>
+    <tr><td>密码</td><td><input type="text" name="pw"></td></tr>
     <tr><td colspan="2" align="center"><input type="submit"  value="登陆"></td></tr>
   </table>
 </form>
